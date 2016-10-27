@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created by savch on 27.10.2016.
  */
-public class CarCR {
+class CarCR {
     String modelArray[];
     int doorArray[];
     private int countOfCars;
@@ -30,14 +30,6 @@ public class CarCR {
             return this.carObCreator(0, "No such model");
         } else {
             return this.carObCreator(x, y);
-            /*for (int j = 0; j <= this.countOfCars; j++) {
-                for (String aModelArray : this.modelArray) {
-                    for (int aDoorArray : this.doorArray) {
-                        this.carObList.add(carObCreator(aDoorArray, aModelArray));
-                    }
-                }
-            }
-            return this.carObList;*/
         }
     }
 

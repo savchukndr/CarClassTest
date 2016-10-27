@@ -3,7 +3,7 @@ package com.company;
 /**
  * Created by savch on 27.10.2016.
  */
-public class CarCL {
+class CarCL {
     private int doors;
     private String modelName;
 
