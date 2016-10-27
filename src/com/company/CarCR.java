@@ -9,7 +9,6 @@ class CarCR {
     String modelArray[];
     int doorArray[];
     private int countOfCars;
-    private List<CarCL> carObList;
 
     CarCR(int i) {
         this.countOfCars = i;
